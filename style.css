@@ -1,0 +1,21 @@
+body { font-family: sans-serif; }
+h1 { font-size: 20.6px; }
+p { font-style: italic; font-size: 90%; }
+th, td { padding: 10px; border: 1px solid gray; text-align: center; }
+th:first-of-type { text-align: right; }
+th, td, caption { background-color: burlywood; }
+img { vertical-align: middle; }
+caption img:not(:first-child) { padding-left: 24px; }
+caption {
+  padding: 8px 6px 6px 6px;
+  font-size: 83%;
+  font-style: italic;
+  border: 1px solid gray;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+@media (pointer:coarse) {
+  body { transform-origin: top left; transform: scale(7.3); }
+  h1, p, caption { display: none; }
+  th { font-size: 50%; }
+}
