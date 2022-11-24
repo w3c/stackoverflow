@@ -1,0 +1,269 @@
+{
+  "IndexedDB": [
+    "indexeddb"
+  ],
+  "Service Worker": [
+    "background-fetch",
+    "background-sync",
+    "service-worker"
+  ],
+  "WebAssembly": [
+    "webassembly"
+  ],
+  "WebGPU": [
+    "webgpu"
+  ],
+  "WebAudio+WebMIDI": [
+    "audiocontext",
+    "web-audio-api",
+    "web-midi"
+  ],
+  "WebRTC+WebTransport": [
+    "rtcdatachannel",
+    "rtcpeerconnection",
+    "webrtc",
+    "webtransport"
+  ],
+  "Media": [
+    "capturestream",
+    "eme",
+    "get-display-media",
+    "getusermedia",
+    "media-source",
+    "mediacapture",
+    "mediadevices",
+    "mediarecorder",
+    "mediasession",
+    "mediastream",
+    "mediastreamsegmenter",
+    "mediastreamsource",
+    "mediastreamtrack",
+    "picture-in-picture",
+    "requestframe",
+    "screen-capture",
+    "ttml",
+    "web-mediarecorder",
+    "webcodecs",
+    "webvtt"
+  ],
+  "Platform interaction": [
+    "device-orientation",
+    "devicemotion",
+    "gamepad-api",
+    "html5-clipboard-api",
+    "payment-request-api",
+    "pointerlock",
+    "presentation-api",
+    "push-api",
+    "w3c-geolocation",
+    "web-bluetooth",
+    "web-push",
+    "web-share",
+    "web-share-target",
+    "webhid",
+    "webnfc",
+    "webspeech-api",
+    "webusb",
+    "webxr"
+  ],
+  "Performance+profiling": [
+    "client-hints",
+    "distributed-tracing",
+    "intersection-observer",
+    "lazy-loading",
+    "navigation-timing-api",
+    "requestidlecallback",
+    "resource-timing-api",
+    "sendbeacon",
+    "server-timing"
+  ],
+  "WebAuthn": [
+    "webauthn"
+  ],
+  "CSP": [
+    "content-security-policy"
+  ],
+  "Security": [
+    "clear-site-data",
+    "cross-origin-embedder-policy",
+    "cross-origin-opener-policy",
+    "cross-origin-resource-policy",
+    "fetch-metadata",
+    "mixed-content",
+    "permissions-policy",
+    "private-network-access",
+    "referrer-policy",
+    "secure-context",
+    "subresource-integrity",
+    "trusted-types",
+    "upgrade-insecure-requests",
+    "webcrypto-api"
+  ],
+  "Accessibility": [
+    "wai-aria",
+    "wcag",
+    "wcag2.0"
+  ],
+  "SVG": [
+    "svg",
+    "svg-filters"
+  ],
+  "CSS": [
+    "background-blend-mode",
+    "clip-path",
+    "css",
+    "css-animations",
+    "css-calc",
+    "css-cascade",
+    "css-counter",
+    "css-filters",
+    "css-float",
+    "css-grid",
+    "css-mask",
+    "css-multicolumn-layout",
+    "css-paged-media",
+    "css-paint-api",
+    "css-position",
+    "css-selectors",
+    "css-shapes",
+    "css-tables",
+    "css-transforms",
+    "css-transitions",
+    "css-variables",
+    "cssom",
+    "flexbox",
+    "font-face",
+    "font-family",
+    "font-size",
+    "font-size",
+    "media-queries",
+    "mix-blend-mode",
+    "pseudo-class",
+    "resize-observer"
+  ],
+  "WebDriver": [
+    "webdriver",
+    "selenium-webdriver"
+  ],
+  "WebSocket": [
+    "websocket"
+  ],
+  "Fetch+XHR": [
+    "fetch",
+    "fetch-api",
+    "form-data",
+    "xmlhttprequest"
+  ],
+  "CORS": [
+    "cors",
+    "cross-origin-read-blocking",
+    "preflight"
+  ],
+  "Caching+Cookies": [
+    "cookies",
+    "cookiestore",
+    "http-caching",
+    "samesite",
+    "session-cookies",
+    "setcookie",
+    "third-party-cookies"
+  ],
+  "Graphics+Typography": [
+    "canvas",
+    "html5-canvas",
+    "mathml",
+    "picture-element",
+    "responsive-images",
+    "srcset",
+    "todataurl",
+    "web-animations",
+    "web-animations-api",
+    "webfonts",
+    "webgl",
+    "webgl-extensions",
+    "webgl2",
+    "woff",
+    "woff2"
+  ],
+  "Web Components": [
+    "custom-element",
+    "shadow-dom",
+    "web-component"
+  ],
+  "DOM+Events": [
+    "abortcontroller",
+    "document.evaluate",
+    "documentfragment",
+    "dom",
+    "dom-events",
+    "domparser",
+    "htmlcollection",
+    "pointer-events"
+  ],
+  "Core": [
+    "broadcast-channel",
+    "contenteditable",
+    "data-uri",
+    "datalist",
+    "document.write",
+    "drag-and-drop",
+    "draggable",
+    "execcommand",
+    "filereader",
+    "html-datalist",
+    "html-imports",
+    "html-input",
+    "html-select",
+    "html-validation",
+    "html5-audio",
+    "html5-video",
+    "html5-data",
+    "html5-filesystem",
+    "html5-formvalidation",
+    "html5-fullscreen",
+    "html5-history",
+    "html5-notifications",
+    "html5-template",
+    "html5-validation",
+    "inputevent",
+    "local-storage",
+    "meta-tags",
+    "multipartform-data",
+    "mutation-observers",
+    "nodelist",
+    "offscreen-canvas",
+    "percent-encoding",
+    "postmessage",
+    "preload",
+    "preloader",
+    "preloading",
+    "queryselector",
+    "quirks-mode",
+    "same-origin-policy",
+    "selection-api",
+    "server-sent-events",
+    "shared-worker",
+    "tabindex",
+    "textarea",
+    "urlsearchparams",
+    "web-notifications",
+    "web-worker",
+    "whatwg-streams-api",
+    "window-object",
+    "x-frame-options"
+  ],
+  "Browsers": [
+    "android-chrome",
+    "blink",
+    "chromium",
+    "firefox",
+    "gecko",
+    "google-chrome",
+    "microsoft-edge",
+    "mobile-chrome",
+    "mobile-safari",
+    "safari",
+    "webkit",
+    "webview"
+  ]
+}

@@ -1,0 +1,41 @@
+body { font-family: sans-serif; }
+h1 { font-size: 20.6px;}
+h1.counts { font-size: 18px; margin-left: 285px }
+p { font-style: italic; font-size: 90%; }
+div { display: flex; flex-flow: row wrap; }
+table { height: 250px; font-size: 80%; line-height: .4; }
+th, td { padding: 10px; border: 1px solid gray; text-align: center; }
+td.number { text-align: right; }
+a { color: darkgreen; }
+th:first-of-type { text-align: right; }
+thead { color: brown; }
+thead tr:first-of-type { color: black; }
+thead:after {
+  content: "-";
+  display: block;
+  font-size: 4px;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  color: transparent;
+}
+th, td, caption { background-color: burlywood; }
+img { vertical-align: middle; opacity: 80%; }
+caption img:not(:first-child) { padding-left: 24px; }
+caption {
+  padding: 8px 6px 6px 6px;
+  font-weight: bold;
+  font-size: 90%;
+  border: 1px solid gray;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+table.collective  { margin-right: 32px; }
+table.collective caption { font-size: 120%; }
+.count { padding-top: 6px; color: #666; }
+@media (pointer:coarse) {
+  body { transform-origin: top left; transform: scale(7.3); }
+  h1, p, caption { display: none; }
+  th { font-size: 50%; }
+}
