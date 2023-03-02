@@ -70,7 +70,6 @@
     "client-hints",
     "distributed-tracing",
     "intersection-observer",
-    "lazy-loading",
     "navigation-timing-api",
     "requestidlecallback",
     "resource-timing-api",
